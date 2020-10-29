@@ -1,0 +1,25 @@
+
+<html>
+<header>
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  </header>
+<body>
+
+  <div>
+
+    <% if @user_bday == Date.today %>
+    <h1>Happy Birthday <%= @user_name %></h1>
+    <div id="pinata"><iframe src="https://giphy.com/embed/24FWvKjaZR47LgSInf" width="480" height="420" frameBorder="0" class="giphy-embed" allowFullScreen ></iframe><p><a href="https://giphy.com/gifs/pinata-party-24FWvKjaZR47LgSInf">via GIPHY</a></p>
+  </div>
+  <% else %>
+
+  <div id="commiserations">
+  <h2>Nevermind, <%= @user_name %>. It's only <%= @days_left %> days
+     until your birthday.</h2>
+  <% end %>
+</div>
+
+</div>
+</body>
+</html>
