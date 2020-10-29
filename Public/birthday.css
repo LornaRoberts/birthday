@@ -1,0 +1,56 @@
+
+
+  body {
+    background-color: #caf59d !important;
+  }
+  h1 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 120px;
+    text-align: center;
+    padding-top: 100px;
+  }
+  h2 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  p, label{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+  }
+
+  button{
+    width: 140px;
+    background-color: #e8933f;
+    height: 40px;
+    margin: 30px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px
+  }
+
+   form{
+     margin: 0 auto;
+     width: 500px;
+     text-align: center;
+     margin-top: -100px;
+   }
+input{
+    font-size: 30px;
+  }
+
+  #day, #month{
+    font-family: 'Amatic SC', cursive;
+
+
+  }
+
+  #pinata{
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  #commiserations{
+    margin: 0 auto;
+  }
